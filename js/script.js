@@ -18,8 +18,7 @@ container.addEventListener('click', function(event) {
   // クリックされた座標のY軸位置を取得
   const y = event.clientY;
   // クリックされた位置が上半分であればメニューを表示
-  if (y < window.innerHeight / 2) {
+  // if (y < window.innerHeight / 2) {
     menu.classList.toggle('active');
-  }
+  // }
 });
-
